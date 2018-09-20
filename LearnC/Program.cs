@@ -11,5 +11,17 @@ namespace LearnC
         static void Main(string[] args)
         {
         }
+
+
+    }
+
+
+    abstract class life
+    {
+        public abstract void eat();
+        public void sound()
+        {
+            Console.WriteLine("human can speak");
+        }
     }
 }
